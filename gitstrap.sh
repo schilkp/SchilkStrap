@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~
 echo "Cloning dotfiles repo..."
-git clone --bare git@github.com:TheSchilk/dotfiles.git 
+git clone --bare git@github.com:schilkp/dotfiles.git
 
 echo "Moving Repo..."
 mv dotfiles.git/ .dotfiles.git/
